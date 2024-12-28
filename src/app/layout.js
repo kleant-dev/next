@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
 function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
-
+        <main>{children}</main>
+        <footer>{new Date()}</footer>
       </body>
     </html>
   );
