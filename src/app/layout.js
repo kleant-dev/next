@@ -7,7 +7,7 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         <main>{children}</main>
-        <footer>{new Date()}</footer>
+        <footer>{new Date().toISOString()}</footer>
       </body>
     </html>
   );
